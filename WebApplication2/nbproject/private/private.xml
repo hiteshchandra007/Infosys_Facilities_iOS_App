@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/ComplaintsBean.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/closedrequest.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/UserTable.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Complaint.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/allocatedRequests.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Editdetails.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Request.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/allocaterequest.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/RequestDetails.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Login.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/AllocatedUpdated.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Adddetails.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/removeUser.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/UserBean.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/UserDetailsClass.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/ComplaintsFetch.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/AllocaterequestBean.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/RequestTable.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/Userdetails.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/beans/Userclass.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/Edit.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/services/deallocatedrequest.java</file>
+            <file>file:/Users/gec/Desktop/WebApplication2/src/java/com/controller/Controller.java</file>
+        </group>
+    </open-files>
+</project-private>
