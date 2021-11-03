@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9B31352414DACE00D62752 /* PendingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B31342414DACE00D62752 /* PendingTableViewController.swift */; };
+		8EA16807240E598200075AD8 /* StaffTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16806240E598200075AD8 /* StaffTabBarController.swift */; };
+		8EA16809240F618800075AD8 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16808240F618800075AD8 /* Notifications.swift */; };
+		8EA1680B240FA62A00075AD8 /* changepasswordadminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1680A240FA62A00075AD8 /* changepasswordadminViewController.swift */; };
+		8EA1680D240FACC000075AD8 /* changePasswordManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1680C240FACC000075AD8 /* changePasswordManagerViewController.swift */; };
+		8EA1680F240FB1DA00075AD8 /* changepasswordemployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1680E240FB1DA00075AD8 /* changepasswordemployeeViewController.swift */; };
+		8EA168112410952700075AD8 /* AdminSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA168102410952700075AD8 /* AdminSignUpViewController.swift */; };
+		8EDCB50324025C1B00E16EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB50224025C1B00E16EE1 /* AppDelegate.swift */; };
+		8EDCB50824025C1B00E16EE1 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB50624025C1B00E16EE1 /* Employee.storyboard */; };
+		8EDCB50B24025C1B00E16EE1 /* IF_Employee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB50924025C1B00E16EE1 /* IF_Employee.xcdatamodeld */; };
+		8EDCB50D24025C1D00E16EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB50C24025C1D00E16EE1 /* Assets.xcassets */; };
+		8EDCB51024025C1D00E16EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB50E24025C1D00E16EE1 /* LaunchScreen.storyboard */; };
+		8EDCB51A240267FA00E16EE1 /* RaiseRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB519240267FA00E16EE1 /* RaiseRequestViewController.swift */; };
+		8EDCB5202402A5F700E16EE1 /* ClosedRequestTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB51F2402A5F700E16EE1 /* ClosedRequestTableTableViewController.swift */; };
+		8EDCB5242406304700E16EE1 /* RaiseComplaintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5232406304700E16EE1 /* RaiseComplaintTableViewController.swift */; };
+		8EDCB52624063C3E00E16EE1 /* CloseRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB52524063C3E00E16EE1 /* CloseRequestViewController.swift */; };
+		8EDCB52824063C5C00E16EE1 /* ReOpenRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB52724063C5C00E16EE1 /* ReOpenRequestViewController.swift */; };
+		8EDCB52A24063CAE00E16EE1 /* ComplaintRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB52924063CAE00E16EE1 /* ComplaintRequestViewController.swift */; };
+		8EDCB52C2406465E00E16EE1 /* OpenRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB52B2406465E00E16EE1 /* OpenRequestTableViewController.swift */; };
+		8EDCB52E240684E000E16EE1 /* requestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB52D240684E000E16EE1 /* requestDetailsViewController.swift */; };
+		8EDCB570240A7E8800E16EE1 /* ComplaintRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB56F240A7E8800E16EE1 /* ComplaintRequestDetailsViewController.swift */; };
+		8EDCB572240AA39900E16EE1 /* OpenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB571240AA39900E16EE1 /* OpenTableViewCell.swift */; };
+		8EDCB5C8240D23CE00E16EE1 /* AddressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5BC240D23CC00E16EE1 /* AddressTableViewController.swift */; };
+		8EDCB5C9240D23CE00E16EE1 /* ComplaintsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5BD240D23CC00E16EE1 /* ComplaintsTableViewCell.swift */; };
+		8EDCB5CA240D23CE00E16EE1 /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5BE240D23CC00E16EE1 /* EmployeeDetailsViewController.swift */; };
+		8EDCB5CB240D23CE00E16EE1 /* ReallocateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5BF240D23CC00E16EE1 /* ReallocateDetailsViewController.swift */; };
+		8EDCB5CC240D23CE00E16EE1 /* ReallocateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C0240D23CC00E16EE1 /* ReallocateViewController.swift */; };
+		8EDCB5CD240D23CE00E16EE1 /* AllocatedRequestsUpdatedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C2240D23CD00E16EE1 /* AllocatedRequestsUpdatedTableViewController.swift */; };
+		8EDCB5CE240D23CE00E16EE1 /* AllocatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C3240D23CD00E16EE1 /* AllocatedTableViewCell.swift */; };
+		8EDCB5CF240D23CE00E16EE1 /* AllocatedDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C5240D23CE00E16EE1 /* AllocatedDetailsViewController.swift */; };
+		8EDCB5D0240D23CE00E16EE1 /* AllocateRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C6240D23CE00E16EE1 /* AllocateRequestTableViewController.swift */; };
+		8EDCB5D1240D23CE00E16EE1 /* AllocateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5C7240D23CE00E16EE1 /* AllocateTableViewCell.swift */; };
+		8EDCB5D3240D241200E16EE1 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D2240D241200E16EE1 /* Manager.storyboard */; };
+		8EDCB5E4240D246800E16EE1 /* RequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D5240D246200E16EE1 /* RequestDetailsViewController.swift */; };
+		8EDCB5E5240D246800E16EE1 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D6240D246300E16EE1 /* changePasswordViewController.swift */; };
+		8EDCB5E6240D246800E16EE1 /* OpenRequestTableViewController_Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D7240D246300E16EE1 /* OpenRequestTableViewController_Staff.swift */; };
+		8EDCB5E7240D246800E16EE1 /* TableViewCelldeallocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D8240D246300E16EE1 /* TableViewCelldeallocate.swift */; };
+		8EDCB5E8240D246800E16EE1 /* allocaterequestdetailasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5D9240D246400E16EE1 /* allocaterequestdetailasViewController.swift */; };
+		8EDCB5E9240D246800E16EE1 /* DeallocatedRequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DA240D246400E16EE1 /* DeallocatedRequestsTableViewController.swift */; };
+		8EDCB5EA240D246800E16EE1 /* TableViewCellallocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DB240D246500E16EE1 /* TableViewCellallocate.swift */; };
+		8EDCB5EB240D246800E16EE1 /* detailsofdeallocatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DC240D246500E16EE1 /* detailsofdeallocatedViewController.swift */; };
+		8EDCB5EC240D246800E16EE1 /* TableViewCellclosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DD240D246600E16EE1 /* TableViewCellclosed.swift */; };
+		8EDCB5ED240D246800E16EE1 /* EmployeeDetailsViewController_Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DE240D246600E16EE1 /* EmployeeDetailsViewController_Staff.swift */; };
+		8EDCB5EE240D246800E16EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5DF240D246600E16EE1 /* ViewController.swift */; };
+		8EDCB5EF240D246800E16EE1 /* ClosedRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5E0240D246700E16EE1 /* ClosedRequestTableViewController.swift */; };
+		8EDCB5F0240D246800E16EE1 /* UpdateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5E1240D246700E16EE1 /* UpdateStatusViewController.swift */; };
+		8EDCB5F1240D246800E16EE1 /* employeedetailsdeallocatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5E2240D246800E16EE1 /* employeedetailsdeallocatedViewController.swift */; };
+		8EDCB5F2240D246800E16EE1 /* employeedetailsallocatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5E3240D246800E16EE1 /* employeedetailsallocatedViewController.swift */; };
+		8EDCB5F4240D248300E16EE1 /* Staff.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB5F3240D248300E16EE1 /* Staff.storyboard */; };
+		8EDCB5FD240D4A0B00E16EE1 /* updateemployeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5F6240D4A0B00E16EE1 /* updateemployeeTableViewController.swift */; };
+		8EDCB5FE240D4A0B00E16EE1 /* finalupdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5F7240D4A0B00E16EE1 /* finalupdateViewController.swift */; };
+		8EDCB5FF240D4A0B00E16EE1 /* admintabbarcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5F8240D4A0B00E16EE1 /* admintabbarcontroller.swift */; };
+		8EDCB600240D4A0B00E16EE1 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5F9240D4A0B00E16EE1 /* AdminViewController.swift */; };
+		8EDCB601240D4A0B00E16EE1 /* deleteuserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5FA240D4A0B00E16EE1 /* deleteuserViewController.swift */; };
+		8EDCB602240D4A0B00E16EE1 /* adduserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5FB240D4A0B00E16EE1 /* adduserViewController.swift */; };
+		8EDCB603240D4A0B00E16EE1 /* empupdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB5FC240D4A0B00E16EE1 /* empupdateTableViewCell.swift */; };
+		8EDCB605240D4A3000E16EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCB604240D4A3000E16EE1 /* Main.storyboard */; };
+		8EDCB607240D4AC100E16EE1 /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB606240D4AC100E16EE1 /* alert.swift */; };
+		8EDCB60B240D51C400E16EE1 /* CustomConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCB60A240D51C400E16EE1 /* CustomConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E9B31342414DACE00D62752 /* PendingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTableViewController.swift; sourceTree = "<group>"; };
+		8EA16806240E598200075AD8 /* StaffTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTabBarController.swift; sourceTree = "<group>"; };
+		8EA16808240F618800075AD8 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		8EA1680A240FA62A00075AD8 /* changepasswordadminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changepasswordadminViewController.swift; sourceTree = "<group>"; };
+		8EA1680C240FACC000075AD8 /* changePasswordManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordManagerViewController.swift; sourceTree = "<group>"; };
+		8EA1680E240FB1DA00075AD8 /* changepasswordemployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changepasswordemployeeViewController.swift; sourceTree = "<group>"; };
+		8EA168102410952700075AD8 /* AdminSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignUpViewController.swift; sourceTree = "<group>"; };
+		8EDCB4FF24025C1B00E16EE1 /* IF_Employee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IF_Employee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDCB50224025C1B00E16EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EDCB50724025C1B00E16EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Employee.storyboard; sourceTree = "<group>"; };
+		8EDCB50A24025C1B00E16EE1 /* IF_Employee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IF_Employee.xcdatamodel; sourceTree = "<group>"; };
+		8EDCB50C24025C1D00E16EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDCB50F24025C1D00E16EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EDCB51124025C1D00E16EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDCB519240267FA00E16EE1 /* RaiseRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseRequestViewController.swift; sourceTree = "<group>"; };
+		8EDCB51F2402A5F700E16EE1 /* ClosedRequestTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedRequestTableTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5232406304700E16EE1 /* RaiseComplaintTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseComplaintTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB52524063C3E00E16EE1 /* CloseRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseRequestViewController.swift; sourceTree = "<group>"; };
+		8EDCB52724063C5C00E16EE1 /* ReOpenRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReOpenRequestViewController.swift; sourceTree = "<group>"; };
+		8EDCB52924063CAE00E16EE1 /* ComplaintRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintRequestViewController.swift; sourceTree = "<group>"; };
+		8EDCB52B2406465E00E16EE1 /* OpenRequestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenRequestTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB52D240684E000E16EE1 /* requestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB56F240A7E8800E16EE1 /* ComplaintRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintRequestDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB571240AA39900E16EE1 /* OpenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCB5BC240D23CC00E16EE1 /* AddressTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5BD240D23CC00E16EE1 /* ComplaintsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintsTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCB5BE240D23CC00E16EE1 /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB5BF240D23CC00E16EE1 /* ReallocateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallocateDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB5C0240D23CC00E16EE1 /* ReallocateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallocateViewController.swift; sourceTree = "<group>"; };
+		8EDCB5C2240D23CD00E16EE1 /* AllocatedRequestsUpdatedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocatedRequestsUpdatedTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5C3240D23CD00E16EE1 /* AllocatedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocatedTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCB5C5240D23CE00E16EE1 /* AllocatedDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocatedDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB5C6240D23CE00E16EE1 /* AllocateRequestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocateRequestTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5C7240D23CE00E16EE1 /* AllocateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocateTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCB5D2240D241200E16EE1 /* Manager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		8EDCB5D5240D246200E16EE1 /* RequestDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDetailsViewController.swift; sourceTree = "<group>"; };
+		8EDCB5D6240D246300E16EE1 /* changePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		8EDCB5D7240D246300E16EE1 /* OpenRequestTableViewController_Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenRequestTableViewController_Staff.swift; sourceTree = "<group>"; };
+		8EDCB5D8240D246300E16EE1 /* TableViewCelldeallocate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCelldeallocate.swift; sourceTree = "<group>"; };
+		8EDCB5D9240D246400E16EE1 /* allocaterequestdetailasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allocaterequestdetailasViewController.swift; sourceTree = "<group>"; };
+		8EDCB5DA240D246400E16EE1 /* DeallocatedRequestsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeallocatedRequestsTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5DB240D246500E16EE1 /* TableViewCellallocate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellallocate.swift; sourceTree = "<group>"; };
+		8EDCB5DC240D246500E16EE1 /* detailsofdeallocatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsofdeallocatedViewController.swift; sourceTree = "<group>"; };
+		8EDCB5DD240D246600E16EE1 /* TableViewCellclosed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellclosed.swift; sourceTree = "<group>"; };
+		8EDCB5DE240D246600E16EE1 /* EmployeeDetailsViewController_Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController_Staff.swift; sourceTree = "<group>"; };
+		8EDCB5DF240D246600E16EE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EDCB5E0240D246700E16EE1 /* ClosedRequestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosedRequestTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5E1240D246700E16EE1 /* UpdateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStatusViewController.swift; sourceTree = "<group>"; };
+		8EDCB5E2240D246800E16EE1 /* employeedetailsdeallocatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeedetailsdeallocatedViewController.swift; sourceTree = "<group>"; };
+		8EDCB5E3240D246800E16EE1 /* employeedetailsallocatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeedetailsallocatedViewController.swift; sourceTree = "<group>"; };
+		8EDCB5F3240D248300E16EE1 /* Staff.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Staff.storyboard; sourceTree = "<group>"; };
+		8EDCB5F6240D4A0B00E16EE1 /* updateemployeeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updateemployeeTableViewController.swift; sourceTree = "<group>"; };
+		8EDCB5F7240D4A0B00E16EE1 /* finalupdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalupdateViewController.swift; sourceTree = "<group>"; };
+		8EDCB5F8240D4A0B00E16EE1 /* admintabbarcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = admintabbarcontroller.swift; sourceTree = "<group>"; };
+		8EDCB5F9240D4A0B00E16EE1 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		8EDCB5FA240D4A0B00E16EE1 /* deleteuserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deleteuserViewController.swift; sourceTree = "<group>"; };
+		8EDCB5FB240D4A0B00E16EE1 /* adduserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adduserViewController.swift; sourceTree = "<group>"; };
+		8EDCB5FC240D4A0B00E16EE1 /* empupdateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = empupdateTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCB604240D4A3000E16EE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8EDCB606240D4AC100E16EE1 /* alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
+		8EDCB60A240D51C400E16EE1 /* CustomConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConnection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDCB4FC24025C1B00E16EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDCB4F624025C1B00E16EE1 = {
+			isa = PBXGroup;
+			children = (
+				8EDCB60A240D51C400E16EE1 /* CustomConnection.swift */,
+				8EDCB50224025C1B00E16EE1 /* AppDelegate.swift */,
+				8EDCB50924025C1B00E16EE1 /* IF_Employee.xcdatamodeld */,
+				8EDCB50C24025C1D00E16EE1 /* Assets.xcassets */,
+				8EDCB5F5240D494C00E16EE1 /* IF_Admin */,
+				8EDCB5D4240D241F00E16EE1 /* IF_Staff */,
+				8EDCB5BA240D238700E16EE1 /* IF_Manager */,
+				8EDCB50124025C1B00E16EE1 /* IF_Employee */,
+				8EDCB50024025C1B00E16EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDCB50024025C1B00E16EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB4FF24025C1B00E16EE1 /* IF_Employee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDCB50124025C1B00E16EE1 /* IF_Employee */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB51124025C1D00E16EE1 /* Info.plist */,
+				8EDCB50E24025C1D00E16EE1 /* LaunchScreen.storyboard */,
+				8EDCB50624025C1B00E16EE1 /* Employee.storyboard */,
+				8EDCB519240267FA00E16EE1 /* RaiseRequestViewController.swift */,
+				8EDCB51F2402A5F700E16EE1 /* ClosedRequestTableTableViewController.swift */,
+				8EDCB5232406304700E16EE1 /* RaiseComplaintTableViewController.swift */,
+				8EDCB52524063C3E00E16EE1 /* CloseRequestViewController.swift */,
+				8EDCB52724063C5C00E16EE1 /* ReOpenRequestViewController.swift */,
+				8EDCB52924063CAE00E16EE1 /* ComplaintRequestViewController.swift */,
+				8EDCB52B2406465E00E16EE1 /* OpenRequestTableViewController.swift */,
+				8EDCB52D240684E000E16EE1 /* requestDetailsViewController.swift */,
+				8EDCB56F240A7E8800E16EE1 /* ComplaintRequestDetailsViewController.swift */,
+				8EDCB571240AA39900E16EE1 /* OpenTableViewCell.swift */,
+				8EA1680E240FB1DA00075AD8 /* changepasswordemployeeViewController.swift */,
+				8E9B31342414DACE00D62752 /* PendingTableViewController.swift */,
+			);
+			path = IF_Employee;
+			sourceTree = "<group>";
+		};
+		8EDCB5BA240D238700E16EE1 /* IF_Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB5D2240D241200E16EE1 /* Manager.storyboard */,
+				8EDCB5C1240D23CD00E16EE1 /* AllocatedReq */,
+				8EDCB5BB240D23CC00E16EE1 /* EmpComplaints */,
+				8EDCB5C4240D23CE00E16EE1 /* NotAllocatedReq */,
+				8EA1680C240FACC000075AD8 /* changePasswordManagerViewController.swift */,
+			);
+			path = IF_Manager;
+			sourceTree = "<group>";
+		};
+		8EDCB5BB240D23CC00E16EE1 /* EmpComplaints */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB5BC240D23CC00E16EE1 /* AddressTableViewController.swift */,
+				8EDCB5BD240D23CC00E16EE1 /* ComplaintsTableViewCell.swift */,
+				8EDCB5BE240D23CC00E16EE1 /* EmployeeDetailsViewController.swift */,
+				8EDCB5BF240D23CC00E16EE1 /* ReallocateDetailsViewController.swift */,
+				8EDCB5C0240D23CC00E16EE1 /* ReallocateViewController.swift */,
+			);
+			path = EmpComplaints;
+			sourceTree = "<group>";
+		};
+		8EDCB5C1240D23CD00E16EE1 /* AllocatedReq */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB5C2240D23CD00E16EE1 /* AllocatedRequestsUpdatedTableViewController.swift */,
+				8EDCB5C3240D23CD00E16EE1 /* AllocatedTableViewCell.swift */,
+			);
+			path = AllocatedReq;
+			sourceTree = "<group>";
+		};
+		8EDCB5C4240D23CE00E16EE1 /* NotAllocatedReq */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB5C5240D23CE00E16EE1 /* AllocatedDetailsViewController.swift */,
+				8EDCB5C6240D23CE00E16EE1 /* AllocateRequestTableViewController.swift */,
+				8EDCB5C7240D23CE00E16EE1 /* AllocateTableViewCell.swift */,
+			);
+			path = NotAllocatedReq;
+			sourceTree = "<group>";
+		};
+		8EDCB5D4240D241F00E16EE1 /* IF_Staff */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB5F3240D248300E16EE1 /* Staff.storyboard */,
+				8EDCB5D9240D246400E16EE1 /* allocaterequestdetailasViewController.swift */,
+				8EDCB5D6240D246300E16EE1 /* changePasswordViewController.swift */,
+				8EDCB5E0240D246700E16EE1 /* ClosedRequestTableViewController.swift */,
+				8EDCB5DA240D246400E16EE1 /* DeallocatedRequestsTableViewController.swift */,
+				8EDCB5DC240D246500E16EE1 /* detailsofdeallocatedViewController.swift */,
+				8EDCB5E3240D246800E16EE1 /* employeedetailsallocatedViewController.swift */,
+				8EDCB5E2240D246800E16EE1 /* employeedetailsdeallocatedViewController.swift */,
+				8EDCB5DE240D246600E16EE1 /* EmployeeDetailsViewController_Staff.swift */,
+				8EDCB5D7240D246300E16EE1 /* OpenRequestTableViewController_Staff.swift */,
+				8EDCB5D5240D246200E16EE1 /* RequestDetailsViewController.swift */,
+				8EDCB5DB240D246500E16EE1 /* TableViewCellallocate.swift */,
+				8EDCB5DD240D246600E16EE1 /* TableViewCellclosed.swift */,
+				8EDCB5D8240D246300E16EE1 /* TableViewCelldeallocate.swift */,
+				8EDCB5E1240D246700E16EE1 /* UpdateStatusViewController.swift */,
+				8EDCB5DF240D246600E16EE1 /* ViewController.swift */,
+				8EA16806240E598200075AD8 /* StaffTabBarController.swift */,
+			);
+			path = IF_Staff;
+			sourceTree = "<group>";
+		};
+		8EDCB5F5240D494C00E16EE1 /* IF_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCB606240D4AC100E16EE1 /* alert.swift */,
+				8EDCB604240D4A3000E16EE1 /* Main.storyboard */,
+				8EA16808240F618800075AD8 /* Notifications.swift */,
+				8EDCB5F8240D4A0B00E16EE1 /* admintabbarcontroller.swift */,
+				8EDCB5F9240D4A0B00E16EE1 /* AdminViewController.swift */,
+				8EDCB5FA240D4A0B00E16EE1 /* deleteuserViewController.swift */,
+				8EDCB5FC240D4A0B00E16EE1 /* empupdateTableViewCell.swift */,
+				8EDCB5FB240D4A0B00E16EE1 /* adduserViewController.swift */,
+				8EDCB5F7240D4A0B00E16EE1 /* finalupdateViewController.swift */,
+				8EDCB5F6240D4A0B00E16EE1 /* updateemployeeTableViewController.swift */,
+				8EA1680A240FA62A00075AD8 /* changepasswordadminViewController.swift */,
+				8EA168102410952700075AD8 /* AdminSignUpViewController.swift */,
+			);
+			path = IF_Admin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDCB4FE24025C1B00E16EE1 /* IF_Employee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDCB51424025C1D00E16EE1 /* Build configuration list for PBXNativeTarget "IF_Employee" */;
+			buildPhases = (
+				8EDCB4FB24025C1B00E16EE1 /* Sources */,
+				8EDCB4FC24025C1B00E16EE1 /* Frameworks */,
+				8EDCB4FD24025C1B00E16EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IF_Employee;
+			productName = IF_Employee;
+			productReference = 8EDCB4FF24025C1B00E16EE1 /* IF_Employee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDCB4F724025C1B00E16EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = gec;
+				TargetAttributes = {
+					8EDCB4FE24025C1B00E16EE1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EDCB4FA24025C1B00E16EE1 /* Build configuration list for PBXProject "IF_Employee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDCB4F624025C1B00E16EE1;
+			productRefGroup = 8EDCB50024025C1B00E16EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDCB4FE24025C1B00E16EE1 /* IF_Employee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDCB4FD24025C1B00E16EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDCB5D3240D241200E16EE1 /* Manager.storyboard in Resources */,
+				8EDCB51024025C1D00E16EE1 /* LaunchScreen.storyboard in Resources */,
+				8EDCB50D24025C1D00E16EE1 /* Assets.xcassets in Resources */,
+				8EDCB605240D4A3000E16EE1 /* Main.storyboard in Resources */,
+				8EDCB50824025C1B00E16EE1 /* Employee.storyboard in Resources */,
+				8EDCB5F4240D248300E16EE1 /* Staff.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDCB4FB24025C1B00E16EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDCB5ED240D246800E16EE1 /* EmployeeDetailsViewController_Staff.swift in Sources */,
+				8EDCB5CA240D23CE00E16EE1 /* EmployeeDetailsViewController.swift in Sources */,
+				8EDCB5C8240D23CE00E16EE1 /* AddressTableViewController.swift in Sources */,
+				8EDCB5202402A5F700E16EE1 /* ClosedRequestTableTableViewController.swift in Sources */,
+				8EDCB52A24063CAE00E16EE1 /* ComplaintRequestViewController.swift in Sources */,
+				8EDCB5E6240D246800E16EE1 /* OpenRequestTableViewController_Staff.swift in Sources */,
+				8EDCB5E5240D246800E16EE1 /* changePasswordViewController.swift in Sources */,
+				8EA1680D240FACC000075AD8 /* changePasswordManagerViewController.swift in Sources */,
+				8EDCB52824063C5C00E16EE1 /* ReOpenRequestViewController.swift in Sources */,
+				8EDCB5FE240D4A0B00E16EE1 /* finalupdateViewController.swift in Sources */,
+				8EDCB5E9240D246800E16EE1 /* DeallocatedRequestsTableViewController.swift in Sources */,
+				8EDCB5C9240D23CE00E16EE1 /* ComplaintsTableViewCell.swift in Sources */,
+				8EDCB5E4240D246800E16EE1 /* RequestDetailsViewController.swift in Sources */,
+				8EDCB5E8240D246800E16EE1 /* allocaterequestdetailasViewController.swift in Sources */,
+				8E9B31352414DACE00D62752 /* PendingTableViewController.swift in Sources */,
+				8EDCB5CC240D23CE00E16EE1 /* ReallocateViewController.swift in Sources */,
+				8EDCB52C2406465E00E16EE1 /* OpenRequestTableViewController.swift in Sources */,
+				8EDCB572240AA39900E16EE1 /* OpenTableViewCell.swift in Sources */,
+				8EA1680B240FA62A00075AD8 /* changepasswordadminViewController.swift in Sources */,
+				8EDCB5EB240D246800E16EE1 /* detailsofdeallocatedViewController.swift in Sources */,
+				8EDCB5CE240D23CE00E16EE1 /* AllocatedTableViewCell.swift in Sources */,
+				8EA168112410952700075AD8 /* AdminSignUpViewController.swift in Sources */,
+				8EDCB50B24025C1B00E16EE1 /* IF_Employee.xcdatamodeld in Sources */,
+				8EA16807240E598200075AD8 /* StaffTabBarController.swift in Sources */,
+				8EDCB5EF240D246800E16EE1 /* ClosedRequestTableViewController.swift in Sources */,
+				8EDCB607240D4AC100E16EE1 /* alert.swift in Sources */,
+				8EDCB603240D4A0B00E16EE1 /* empupdateTableViewCell.swift in Sources */,
+				8EDCB50324025C1B00E16EE1 /* AppDelegate.swift in Sources */,
+				8EA16809240F618800075AD8 /* Notifications.swift in Sources */,
+				8EDCB5EC240D246800E16EE1 /* TableViewCellclosed.swift in Sources */,
+				8EDCB5FF240D4A0B00E16EE1 /* admintabbarcontroller.swift in Sources */,
+				8EDCB5F1240D246800E16EE1 /* employeedetailsdeallocatedViewController.swift in Sources */,
+				8EDCB52624063C3E00E16EE1 /* CloseRequestViewController.swift in Sources */,
+				8EDCB5E7240D246800E16EE1 /* TableViewCelldeallocate.swift in Sources */,
+				8EDCB602240D4A0B00E16EE1 /* adduserViewController.swift in Sources */,
+				8EDCB5D1240D23CE00E16EE1 /* AllocateTableViewCell.swift in Sources */,
+				8EDCB5F0240D246800E16EE1 /* UpdateStatusViewController.swift in Sources */,
+				8EDCB5F2240D246800E16EE1 /* employeedetailsallocatedViewController.swift in Sources */,
+				8EDCB601240D4A0B00E16EE1 /* deleteuserViewController.swift in Sources */,
+				8EDCB5EE240D246800E16EE1 /* ViewController.swift in Sources */,
+				8EDCB5CF240D23CE00E16EE1 /* AllocatedDetailsViewController.swift in Sources */,
+				8EDCB5242406304700E16EE1 /* RaiseComplaintTableViewController.swift in Sources */,
+				8EDCB5CD240D23CE00E16EE1 /* AllocatedRequestsUpdatedTableViewController.swift in Sources */,
+				8EDCB51A240267FA00E16EE1 /* RaiseRequestViewController.swift in Sources */,
+				8EDCB5CB240D23CE00E16EE1 /* ReallocateDetailsViewController.swift in Sources */,
+				8EDCB5D0240D23CE00E16EE1 /* AllocateRequestTableViewController.swift in Sources */,
+				8EDCB5FD240D4A0B00E16EE1 /* updateemployeeTableViewController.swift in Sources */,
+				8EDCB570240A7E8800E16EE1 /* ComplaintRequestDetailsViewController.swift in Sources */,
+				8EDCB60B240D51C400E16EE1 /* CustomConnection.swift in Sources */,
+				8EA1680F240FB1DA00075AD8 /* changepasswordemployeeViewController.swift in Sources */,
+				8EDCB52E240684E000E16EE1 /* requestDetailsViewController.swift in Sources */,
+				8EDCB5EA240D246800E16EE1 /* TableViewCellallocate.swift in Sources */,
+				8EDCB600240D4A0B00E16EE1 /* AdminViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EDCB50624025C1B00E16EE1 /* Employee.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDCB50724025C1B00E16EE1 /* Base */,
+			);
+			name = Employee.storyboard;
+			sourceTree = "<group>";
+		};
+		8EDCB50E24025C1D00E16EE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDCB50F24025C1D00E16EE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDCB51224025C1D00E16EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EDCB51324025C1D00E16EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDCB51524025C1D00E16EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IF_Employee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "infosys.IF-Employee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EDCB51624025C1D00E16EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IF_Employee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "infosys.IF-Employee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDCB4FA24025C1B00E16EE1 /* Build configuration list for PBXProject "IF_Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDCB51224025C1D00E16EE1 /* Debug */,
+				8EDCB51324025C1D00E16EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDCB51424025C1D00E16EE1 /* Build configuration list for PBXNativeTarget "IF_Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDCB51524025C1D00E16EE1 /* Debug */,
+				8EDCB51624025C1D00E16EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EDCB50924025C1B00E16EE1 /* IF_Employee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EDCB50A24025C1B00E16EE1 /* IF_Employee.xcdatamodel */,
+			);
+			currentVersion = 8EDCB50A24025C1B00E16EE1 /* IF_Employee.xcdatamodel */;
+			path = IF_Employee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EDCB4F724025C1B00E16EE1 /* Project object */;
+}
